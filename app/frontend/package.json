@@ -12,6 +12,7 @@
     "vite": "^3.0.9"
   },
   "dependencies": {
+    "@metamask/onboarding": "^1.0.1",
     "curl": "^0.1.4"
   }
 }

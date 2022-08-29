@@ -64,6 +64,14 @@ h1 {
   color: #888;
 }
 
+#wallet {
+  position: absolute;
+  top: 320px;
+  left: 630px;
+  display: flex;
+  align-items: center;
+}
+
 button {
   border-radius: 8px;
   border: 1px solid transparent;
