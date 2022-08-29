@@ -3,13 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Aurora Clicker</title>
   </head>
   <body>
-    <button id="wallet" onclick="connectMetamask()">Connect To Metamask</button>
-    <div id="app"></div>
-    <script type="module" src="/main.js"></script>
-    <script src="connectWallet.js"></script>
+    <section>
+      <main>
+        <div class="wallet">
+          <button id="wallet" onclick="connectMetamask()">
+            Connect To Metamask
+          </button>
+        </div>
+        <div id="app"></div>
+        <script type="module" src="/main.js"></script>
+        <script src="connectWallet.js"></script>
+      </main>
+    </section>
   </body>
 </html>
